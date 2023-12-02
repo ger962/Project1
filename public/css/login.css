@@ -1,0 +1,112 @@
+.holder {
+    width: 30%;
+    height: 30%;
+    margin: auto; /* This centers the element horizontally within its parent */
+    position: absolute; /* This centers the element vertically within its parent */
+    top: 25%; /* This positions the element at the vertical center */
+    left: 0; /* This positions the element at the horizontal center */
+    right: 0;
+}
+/* Bordered form */
+form {
+border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+background-color: #6499E9;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+/* Add padding to containers */
+.login-container {
+padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+float: right;
+margin-top: -10px;
+}
+
+/* Add this in your <style> block or CSS file */
+/* Styles for the modal */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+padding-top: 60px;
+}
+
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 30%;
+}
+
+.close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+    display: block;
+    float: none;
+}
+.cancelbtn {
+    width: 100%;
+}
+}
